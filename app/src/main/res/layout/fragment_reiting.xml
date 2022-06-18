@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.reiting.ReitingFragment">
+
+    <!--app:lineRoundRadius="4dp"
+        app:animateOnNewData="true"
+        app:chartFillColors="@array/colors2"
+        app:chartFillPositions="@array/positions"
+        app:lineColor="#C847F4"
+        app:lineWidth="4dp"
+        app:gridEnabled="false"-->
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/valueTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <github.com.st235.lib_chartio.ChartioView
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            app:cv_animateOnNewData="true"
+            app:cv_chartFillColors="@array/colors"
+            app:cv_chartFillPositions="@array/positions"
+            app:cv_gridEnabled="true"
+            app:cv_gridStepGap="32dp"
+            app:cv_lineColor="@color/teal_700"
+            app:cv_lineRoundRadius="4dp"
+            app:cv_lineWidth="2dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

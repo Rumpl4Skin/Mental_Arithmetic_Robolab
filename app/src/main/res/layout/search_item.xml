@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--text view for our course namevar GroupName: String= "",
+                     var mail:String="",
+                     var raiting:Int=0,
+                     var status:String=""-->
+        <TextView
+            android:id="@+id/GroupNameRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="GroupNameRV"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <!--text view for our course description-->
+
+        <TextView
+            android:id="@+id/mailRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/GroupNameRV"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:text="mailRV"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/raitingRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mailRV"
+            android:padding="5dp"
+            android:text="COurse raitingRV"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/statusRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/raitingRV"
+            android:padding="5dp"
+            android:text="statusRV"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

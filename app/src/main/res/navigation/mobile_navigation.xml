@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/gamesFragment">
+    <fragment
+        android:id="@+id/gamesFragment"
+        android:name="com.example.mentalarithmetic.ui.games.GamesFragment"
+        android:label="Тренажеры" />
+    <fragment
+        android:id="@+id/reitingFragment"
+        android:name="com.example.mentalarithmetic.ui.reiting.ReitingFragment"
+        android:label="Рейтинг" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.mentalarithmetic.ui.account.AccountFragment"
+        android:label="Настройки" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.mentalarithmetic.ui.search.SearchFragment"
+        android:label="Поиск"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/homeWorkFragment"
+        android:name="com.example.mentalarithmetic.ui.homework.HomeWorkFragment"
+        android:label="Домашние задания"
+        tools:layout="@layout/fragment_home_work" />
+    <fragment
+        android:id="@+id/fleshFragment"
+        android:name="com.example.mentalarithmetic.ui.games.flesh.FleshFragment"
+        android:label="Флэш"
+        tools:layout="@layout/fragment_flesh" />
+    <fragment
+        android:id="@+id/forsajFragment"
+        android:name="com.example.mentalarithmetic.ui.games.forsaj.ForsajFragment"
+        android:label="Форсаж"
+        tools:layout="@layout/fragment_forsaj" />
+    <fragment
+        android:id="@+id/stolbciFragment"
+        android:name="com.example.mentalarithmetic.ui.games.stolbci.StolbciFragment"
+        android:label="Столбцы"
+        tools:layout="@layout/fragment_stolbci" />
+    <fragment
+        android:id="@+id/gameFlashFragment"
+        android:name="com.example.mentalarithmetic.ui.gameFlashFragment"
+        android:label="Тренажер" />
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gamesFragment"
+        android:icon="@drawable/ic_baseline_sports_esports_24"
+        android:title="@string/title_games" />
+
+    <item
+        android:id="@+id/reitingFragment"
+        android:icon="@drawable/ic_baseline_timeline_24"
+        android:title="@string/title_reiting" />
+
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_round_account_circle_24"
+        android:title="@string/title_account" />
+
+</menu>

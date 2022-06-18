@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mental Arithmetic</string>
+    <string name="title_home">Home</string>
+    <string name="default_status">STUD</string>
+    <string name="stud_status">STUD</string>
+    <string name="teacher_status">TEACH</string>
+    <string name="default_name">Гость</string>
+    <string name="title_games">Тренажеры</string>
+    <string name="title_reiting">Рейтинг</string>
+    <string name="title_account">Аккаунт</string>
+    <string name="title_activity_login">Авторизация</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Имя пользователя недействительно</string>
+    <string name="invalid_password">Нужно >5 символов</string>
+    <string name="login_failed">"Вход не выполнен"</string>
+
+    <string-array name="games_names">
+        <item>Флэш</item>
+        <item>Столбцы</item>
+        <item>Форсаж</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

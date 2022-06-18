@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1087996099859",
+    "firebase_url": "https://mental-arithmetic-5a392-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mental-arithmetic-5a392",
+    "storage_bucket": "mental-arithmetic-5a392.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087996099859:android:6dc3cf9b616d36afd36ee6",
+        "android_client_info": {
+          "package_name": "com.example.mentalarithmetic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087996099859-hc47rtijbq5ftrvqpd39er42m7gse1j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs7uPLjCdo_i32R2yLBmAMFcq7IBY3Ugk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087996099859-hc47rtijbq5ftrvqpd39er42m7gse1j5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
